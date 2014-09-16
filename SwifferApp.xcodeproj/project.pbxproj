@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E5F01DA19C853C300D87527 /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F01D919C853C300D87527 /* TimelineTableViewController.swift */; };
+		1E5F01DC19C853E800D87527 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F01DB19C853E800D87527 /* ComposeViewController.swift */; };
+		1E5F01DE19C8541E00D87527 /* SweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F01DD19C8541E00D87527 /* SweetTableViewCell.swift */; };
 		86F71A4B19608640008EE3B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F71A4A19608640008EE3B7 /* AppDelegate.swift */; };
 		86F71A4D19608640008EE3B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F71A4C19608640008EE3B7 /* Images.xcassets */; };
 		86F71A5919608640008EE3B7 /* SwifferAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F71A5819608640008EE3B7 /* SwifferAppTests.swift */; };
@@ -36,6 +39,9 @@
 
 /* Begin PBXFileReference section */
 		1E5F01D619C8509500D87527 /* SwifferApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwifferApp-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		1E5F01D919C853C300D87527 /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
+		1E5F01DB19C853E800D87527 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		1E5F01DD19C8541E00D87527 /* SweetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetTableViewCell.swift; sourceTree = "<group>"; };
 		86F71A4519608640008EE3B7 /* SwifferApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwifferApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F71A4919608640008EE3B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86F71A4A19608640008EE3B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +117,9 @@
 				86F71A4A19608640008EE3B7 /* AppDelegate.swift */,
 				1E5F01D619C8509500D87527 /* SwifferApp-Bridging-Header.h */,
 				86F71A7C1960885E008EE3B7 /* Storyboard.storyboard */,
+				1E5F01D919C853C300D87527 /* TimelineTableViewController.swift */,
+				1E5F01DB19C853E800D87527 /* ComposeViewController.swift */,
+				1E5F01DD19C8541E00D87527 /* SweetTableViewCell.swift */,
 				86F71A4C19608640008EE3B7 /* Images.xcassets */,
 				86F71A4819608640008EE3B7 /* Supporting Files */,
 			);
@@ -258,6 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E5F01DC19C853E800D87527 /* ComposeViewController.swift in Sources */,
+				1E5F01DA19C853C300D87527 /* TimelineTableViewController.swift in Sources */,
+				1E5F01DE19C8541E00D87527 /* SweetTableViewCell.swift in Sources */,
 				86F71A4B19608640008EE3B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
