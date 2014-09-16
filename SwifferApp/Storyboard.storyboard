@@ -67,9 +67,35 @@
                     <view key="view" contentMode="scaleToFill" id="Y66-I9-MRE">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="yeL-a7-uNm">
+                                <rect key="frame" x="36" y="132" width="248" height="182"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="140" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="p8X-P9-yS1">
+                                <rect key="frame" x="255" y="345" width="29" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="f04-8l-nLZ"/>
+                    <navigationItem key="navigationItem" id="f04-8l-nLZ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="lGp-Hq-D6l">
+                            <connections>
+                                <action selector="sendSweet:" destination="XWJ-UJ-Bfz" id="01g-n2-U43"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="charRemaining" destination="p8X-P9-yS1" id="rVq-M1-5s9"/>
+                        <outlet property="sweetTextView" destination="yeL-a7-uNm" id="zsT-Ll-lfI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wuN-cP-lbT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
